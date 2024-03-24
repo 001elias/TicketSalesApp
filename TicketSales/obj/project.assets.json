@@ -1121,11 +1121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj",
+      "projectUniqueName": "d:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj",
       "projectName": "TicketSales",
-      "projectPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj",
+      "projectPath": "d:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj",
       "packagesPath": "C:\\Users\\elias\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\obj\\",
+      "outputPath": "d:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elias\\AppData\\Roaming\\NuGet\\NuGet.Config",

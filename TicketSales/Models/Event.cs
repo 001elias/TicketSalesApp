@@ -9,10 +9,12 @@ namespace TicketSales.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public string EventType { get; set; }
-        public string Location { get; set; }
+        // Removed Location
         public DateTime EventDateTime { get; set; }
+        public int VenueId { get; set; } // Add VenueId as a foreign key
 
         // Navigation properties
+        public virtual Venue Venue { get; set; } // Add Venue navigation property
         public virtual ICollection<Ticket> Tickets { get; set; }
         public virtual ICollection<Reservation> Reservations { get; set; }
 

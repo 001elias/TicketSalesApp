@@ -1,6 +1,61 @@
-﻿@model TicketSales.Models.Event
+﻿@model IEnumerable<TicketSales.Models.Event>
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<h3>saluit</h3>
+<!-- Main Banner -->
+<div class="main-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header-text">
+                    <h6>Welcome To Tickify</h6>
+                    <h4>Browse All <em>Events</em> Here</h4>
+                    <!--  <div class="main-button">
+                        <a href="@Url.Action("Browse", "Home")">Browse Now</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Most Popular Section -->
+<div class="most-popular">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="heading-section">
+                    <h4><em>All Our</em> Events</h4>
+                </div>
+                <div class="row">
+                   
+                    @foreach (var evt in Model)
+                    {
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="item">
+                                <a asp-action="Details" asp-controller="Events" asp-route-eventId="@evt.EventId">
+                                    <!-- Update the image source path to use the event ID -->
+                                    <img src="@Url.Content($"~/images/event{evt.EventId}.jpg")">
+                                    <h4>@evt.Title<br><span>@evt.EventType</span></h4>
+                                </a>
+                                <ul>
+                                    <li><i class="fa fa-calendar"></i> @evt.EventDateTime.ToString("MMM dd, yyyy")</li>
+                                    <li><i class="fa fa-map-marker"></i> @evt.Venue.City, @evt.Venue.Province</li>
+                                    <li><i class="fa fa-users"></i> @evt.Venue.Capacity</li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Any specific JavaScript for the Home page can go here
+    </script>
+}

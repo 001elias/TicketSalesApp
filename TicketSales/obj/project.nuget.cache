@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1D4QxZoy+ET9BGf44FfkMpsIp/v4AIt9vDhsu1JpTbLrAlKpc7sbVhzr1J2W3cKC+iKvTpj4urKDrdQD16f/VQ==",
+  "dgSpecHash": "1qvay1hkASVJA1lqwSAmF357wNMExZOjI9+Oru1q6s4XYP6+/4FR3dd46pgWiBSGDXnLbMCzarHIB75BrqZPPw==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj",
+  "projectFilePath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elias\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\elias\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

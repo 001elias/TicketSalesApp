@@ -114,6 +114,8 @@ p {
 img {
   width: 100%;
   overflow: hidden;
+  width: 225px;
+  height:150px;
 }
 
 /* 
@@ -392,7 +394,6 @@ Header Style
 
 .header-area .main-nav #search i {
   position: absolute;
-  color: #666;
   left: 20px;
   top: 16px;
   width: 18px;
@@ -410,9 +411,10 @@ Header Style
   transition: all 0.3s ease 0s;
 }
 
-.header-area .main-nav .logo img {
-  width: 191px;
-}
+    .header-area .main-nav .logo img {
+        width: 193px;
+        height: 50px;
+    }
 
 .background-header .main-nav .logo {
   margin-top: 8px;
@@ -826,9 +828,11 @@ Most Popular Style
   margin-bottom: 0px;
 }
 
-.most-popular .item img {
-  border-radius: 23px;
-}
+    .most-popular .item img {
+        border-radius: 23px;
+        width: 225px;
+        height: 160px;
+    }
 
 .most-popular .item h4 {
   font-size: 15px;
@@ -844,10 +848,10 @@ Most Popular Style
   font-weight: 400;
 }
 
-.most-popular .item ul {
+/*.most-popular .item ul {
   float: right;
   margin-top: 20px;
-}
+}*/
 
 .most-popular .item ul li {
   text-align: right;
@@ -1732,4 +1736,8 @@ body {
   .gaming-library .item ul li {
     width: 16%;
   }
+}
+
+.login-container {
+    max-width: 700px
 }

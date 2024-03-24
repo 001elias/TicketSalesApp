@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj": {}
+    "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj": {
+    "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj",
+        "projectUniqueName": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj",
         "projectName": "TicketSales",
-        "projectPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\TicketSales.csproj",
+        "projectPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\TicketSales.csproj",
         "packagesPath": "C:\\Users\\elias\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\obj\\",
+        "outputPath": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elias\\AppData\\Roaming\\NuGet\\NuGet.Config",

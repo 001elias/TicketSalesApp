@@ -1,531 +1,643 @@
 {
   "Files": [
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicketSales.bundle.scp.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TicketSales.bundle.scp.css",
       "PackagePath": "staticwebassets\\TicketSales.bundle.scp.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\animate.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\bootstrap-cosmo.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\bootstrap-cosmo.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-cosmo.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\bootstrap.lux.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\bootstrap.lux.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.lux.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\flex-slider.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\flex-slider.css",
       "PackagePath": "staticwebassets\\css\\flex-slider.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\fontawesome.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\css\\fontawesome.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\owl.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\owl.css",
       "PackagePath": "staticwebassets\\css\\owl.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\site.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\css\\templatemo-cyborg-gaming.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\css\\templatemo-cyborg-gaming.css",
       "PackagePath": "staticwebassets\\css\\templatemo-cyborg-gaming.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\favicon.ico",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\avatar-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\avatar-01.jpg",
       "PackagePath": "staticwebassets\\images\\avatar-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\avatar-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\avatar-02.jpg",
       "PackagePath": "staticwebassets\\images\\avatar-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\avatar-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\avatar-03.jpg",
       "PackagePath": "staticwebassets\\images\\avatar-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\avatar-04.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\avatar-04.jpg",
       "PackagePath": "staticwebassets\\images\\avatar-04.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\banner-bg.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\banner-bg.jpg",
       "PackagePath": "staticwebassets\\images\\banner-bg.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\clip-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\clip-01.jpg",
       "PackagePath": "staticwebassets\\images\\clip-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\clip-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\clip-02.jpg",
       "PackagePath": "staticwebassets\\images\\clip-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\clip-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\clip-03.jpg",
       "PackagePath": "staticwebassets\\images\\clip-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\clip-04.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\clip-04.jpg",
       "PackagePath": "staticwebassets\\images\\clip-04.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\details-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\details-01.jpg",
       "PackagePath": "staticwebassets\\images\\details-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\details-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\details-02.jpg",
       "PackagePath": "staticwebassets\\images\\details-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\details-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\details-03.jpg",
       "PackagePath": "staticwebassets\\images\\details-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\feature-left.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event10.jpg",
+      "PackagePath": "staticwebassets\\images\\event10.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event10.png",
+      "PackagePath": "staticwebassets\\images\\event10.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event11.jpg",
+      "PackagePath": "staticwebassets\\images\\event11.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event12.jpg",
+      "PackagePath": "staticwebassets\\images\\event12.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event13.jpg",
+      "PackagePath": "staticwebassets\\images\\event13.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event13.png",
+      "PackagePath": "staticwebassets\\images\\event13.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event14.jpeg",
+      "PackagePath": "staticwebassets\\images\\event14.jpeg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event14.jpg",
+      "PackagePath": "staticwebassets\\images\\event14.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event15.jpg",
+      "PackagePath": "staticwebassets\\images\\event15.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event15.png",
+      "PackagePath": "staticwebassets\\images\\event15.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event16.jpg",
+      "PackagePath": "staticwebassets\\images\\event16.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event16.png",
+      "PackagePath": "staticwebassets\\images\\event16.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event17.jpg",
+      "PackagePath": "staticwebassets\\images\\event17.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event17.png",
+      "PackagePath": "staticwebassets\\images\\event17.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event18.jpg",
+      "PackagePath": "staticwebassets\\images\\event18.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event19.jpg",
+      "PackagePath": "staticwebassets\\images\\event19.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event2.jpg",
+      "PackagePath": "staticwebassets\\images\\event2.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event20.jpg",
+      "PackagePath": "staticwebassets\\images\\event20.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event21.jpg",
+      "PackagePath": "staticwebassets\\images\\event21.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event3.jpg",
+      "PackagePath": "staticwebassets\\images\\event3.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event4.jpg",
+      "PackagePath": "staticwebassets\\images\\event4.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event5.jpg",
+      "PackagePath": "staticwebassets\\images\\event5.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event6.jpg",
+      "PackagePath": "staticwebassets\\images\\event6.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event6.png",
+      "PackagePath": "staticwebassets\\images\\event6.png"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event7.jpeg",
+      "PackagePath": "staticwebassets\\images\\event7.jpeg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event7.jpg",
+      "PackagePath": "staticwebassets\\images\\event7.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event8.jpg",
+      "PackagePath": "staticwebassets\\images\\event8.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\event9.jpg",
+      "PackagePath": "staticwebassets\\images\\event9.jpg"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\feature-left.jpg",
       "PackagePath": "staticwebassets\\images\\feature-left.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\feature-right.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\feature-right.jpg",
       "PackagePath": "staticwebassets\\images\\feature-right.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\featured-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\featured-01.jpg",
       "PackagePath": "staticwebassets\\images\\featured-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\featured-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\featured-02.jpg",
       "PackagePath": "staticwebassets\\images\\featured-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\featured-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\featured-03.jpg",
       "PackagePath": "staticwebassets\\images\\featured-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\game-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\game-01.jpg",
       "PackagePath": "staticwebassets\\images\\game-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\game-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\game-02.jpg",
       "PackagePath": "staticwebassets\\images\\game-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\game-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\game-03.jpg",
       "PackagePath": "staticwebassets\\images\\game-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\logo.png",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-01.jpg",
       "PackagePath": "staticwebassets\\images\\popular-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-02.jpg",
       "PackagePath": "staticwebassets\\images\\popular-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-03.jpg",
       "PackagePath": "staticwebassets\\images\\popular-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-04.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-04.jpg",
       "PackagePath": "staticwebassets\\images\\popular-04.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-05.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-05.jpg",
       "PackagePath": "staticwebassets\\images\\popular-05.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-06.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-06.jpg",
       "PackagePath": "staticwebassets\\images\\popular-06.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-07.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-07.jpg",
       "PackagePath": "staticwebassets\\images\\popular-07.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\popular-08.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-08.jpg",
       "PackagePath": "staticwebassets\\images\\popular-08.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\profile-header.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\profile-header.jpg",
       "PackagePath": "staticwebassets\\images\\profile-header.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\profile.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\profile.jpg",
       "PackagePath": "staticwebassets\\images\\profile.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\service-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\service-01.jpg",
       "PackagePath": "staticwebassets\\images\\service-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\service-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\service-02.jpg",
       "PackagePath": "staticwebassets\\images\\service-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\service-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\service-03.jpg",
       "PackagePath": "staticwebassets\\images\\service-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-01.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-01.jpg",
       "PackagePath": "staticwebassets\\images\\stream-01.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-02.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-02.jpg",
       "PackagePath": "staticwebassets\\images\\stream-02.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-03.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-03.jpg",
       "PackagePath": "staticwebassets\\images\\stream-03.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-04.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-04.jpg",
       "PackagePath": "staticwebassets\\images\\stream-04.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-05.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-05.jpg",
       "PackagePath": "staticwebassets\\images\\stream-05.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-06.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-06.jpg",
       "PackagePath": "staticwebassets\\images\\stream-06.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-07.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-07.jpg",
       "PackagePath": "staticwebassets\\images\\stream-07.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\images\\stream-08.jpg",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\stream-08.jpg",
       "PackagePath": "staticwebassets\\images\\stream-08.jpg"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\custom.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\isotope.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\isotope.js",
       "PackagePath": "staticwebassets\\js\\isotope.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\isotope.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\isotope.min.js",
       "PackagePath": "staticwebassets\\js\\isotope.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\owl-carousel.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\owl-carousel.js",
       "PackagePath": "staticwebassets\\js\\owl-carousel.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\popup.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\popup.js",
       "PackagePath": "staticwebassets\\js\\popup.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\site.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\js\\tabs.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\js\\tabs.js",
       "PackagePath": "staticwebassets\\js\\tabs.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.min.map",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSales\\TicketSales\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
