@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model TicketSales.Models.Event
+
 @{
+    ViewData["Title"] = "Event Details";
 }
+
+<h2>@Model.Title</h2>
+
+<!-- Display event image -->
+<img src="@Url.Content($"~/images/event{Model.EventId}.jpg")" class="imagedetails">
+
+<div>
+    <h4>Description:</h4>
+    <p>@Model.Description</p>
+</div>
+
+<div>
+    <h4>Date & Time:</h4>
+    <p>@Model.EventDateTime.ToString("dddd, MMMM dd, yyyy HH:mm")</p>
+</div>
+
+<div>
+    <h4>Venue:</h4>
+    <p>@Model.Venue.Name</p>
+    <p>@Model.Venue.Address, @Model.Venue.City, @Model.Venue.Province</p>
+</div>
+
+<div>
+    <h4>Capacity:</h4>
+    <p>@Model.Venue.Capacity</p>
+</div>
+
+@* Add more details as needed *@

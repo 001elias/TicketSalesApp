@@ -1741,3 +1741,9 @@ body {
 .login-container {
     max-width: 700px
 }
+
+.imagedetails {
+    width:600px;
+    height:350px;
+    border-radius:30px;
+}
