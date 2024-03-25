@@ -12,6 +12,7 @@ namespace TicketSales.Controllers
         {
             // Fetch the event including its Venue using EF6
             var evt = await db.Events.Include("Venue")
+                                     .Include("Tickets")
                                      .SingleOrDefaultAsync(e => e.EventId == eventId);
 
             if (evt == null)
@@ -20,6 +21,19 @@ namespace TicketSales.Controllers
             }
 
             return View(evt);
+        }
+        public async Task<IActionResult> Search(string searchQuery)
+        {
+            if (string.IsNullOrWhiteSpace(searchQuery))
+            {
+                return View(new List<Event>()); // Return an empty list or however you wish to handle empty queries
+            }
+
+            var searchResults = await db.Events
+                .Where(e => e.Title.ToLower().Contains(searchQuery.ToLower()))
+                .ToListAsync();
+
+            return View(searchResults);
         }
     }
 }

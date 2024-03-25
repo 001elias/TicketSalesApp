@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/toastr/toastr.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="~/css/fontawesome.css">
@@ -33,8 +34,8 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Search End ***** -->
                         <div class="search-input">
-                            <form id="search" action="#">
-                                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                                <form id="search" asp-controller="Events" asp-action="Search" method="get">
+                                    <input type="text" placeholder="Type Something" id='searchText' name="searchQuery"/>
                                 <i class="fa fa-search"></i>
                             </form>
                         </div>
@@ -43,9 +44,13 @@
                         <ul class="nav">
                             
                             <li>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "active" })</li>
-                            <li><a href="browse.html">Browse</a></li>
-                            <li><a href="details.html">Details</a></li>
-                            <li><a href="streams.html">Streams</a></li>
+                            <li>@Html.ActionLink("Search", "Search", "Events", null)</li>
+                            <li>@Html.ActionLink("My Events", "MyEvents", "Events", null)</li>
+                            <li><a asp-action="Index" asp-controller="Cart">
+                                    <i class="fa-solid fa-cart-shopping me-1"></i>Cart 
+                                    (<span id="cartCount"></span>)
+                                </a>
+                            </li>
                             <li>@Html.ActionLink("Logout", "Logout", "Users", null)</li>
                             @* <li><a href="profile.html">Profile <img src="~/images/profile-header.jpg" alt=""></a></li> *@
                         </ul>
@@ -75,13 +80,65 @@
 
     <script src="~/vendor/jquery/jquery.min.js"></script>
     <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    <script src="~/vendor/toastr/toastr.min.js"></script>
     <script src="~/assets/js/isotope.min.js"></script>
     <script src="~/assets/js/owl-carousel.js"></script>
     <script src="~/assets/js/tabs.js"></script>
     <script src="~/assets/js/popup.js"></script>
     <script src="~/assets/js/custom.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function updateCartCount() {
+            $.ajax({
+                url: '/Cart/GetCartCount',
+                type: 'GET',
+                success: function (data) {
+                    $('#cartCount').text(data);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            updateCartCount();
+            
+            $('.add-to-cart').click(function () {
+                let ticketId = $(this).data('ticket-id');
+                let ticketType = $(this).data('ticket-type');
+                let eventId = $(this).data('event-id');
+                let eventDate = $(this).data('event-date');
+                var description = $(this).data('description');
+                var quantity = 1;
+                var price = $(this).data('price');
+
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "Cart")',
+                    type: 'POST',
+                    data: {
+                        ticketId: ticketId,
+                        eventId: eventId,
+                        eventDate: eventDate,
+                        description: description,
+                        ticketType: ticketType,
+                        quantity: quantity,
+                        price: price
+                    },
+                    success: function (response) {
+                        // Handle success (you can redirect, show a message, etc.)
+                        toastr.options.positionClass = 'toast-bottom-right';
+                        toastr.info('Ticket added to Cart !')
+                        updateCartCount();
+                    },
+                    error: function (error) {
+                        // Handle error
+                        console.log(error);
+                    }
+                });
+            });// Update count when the page loads
+        });
+    </script>
+
+    
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

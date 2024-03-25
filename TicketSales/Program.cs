@@ -13,7 +13,19 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         // Other options can be configured here as needed
     });
 
-var app = builder.Build();
+    // Session
+    builder.Services.AddSession(options =>
+    {
+        // Optional: Configure session options here if needed
+        options.IdleTimeout = TimeSpan.FromMinutes(30); // Example: Set session timeout to 30 minutes
+        options.Cookie.HttpOnly = true;
+        options.Cookie.IsEssential = true;
+    });
+
+    var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -30,6 +42,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

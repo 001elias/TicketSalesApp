@@ -609,6 +609,18 @@
       "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\toastr.css"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\vendor\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\vendor\\toastr\\toastr.min.js"
+    },
+    {
       "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },

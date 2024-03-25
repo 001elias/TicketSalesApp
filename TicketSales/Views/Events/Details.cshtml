@@ -2,32 +2,97 @@
 
 @{
     ViewData["Title"] = "Event Details";
+    var routeValuesForAddToCart = new RouteValueDictionary {
+        { "eventId", Model.EventId }
+    };
 }
+@using System.Web
 
 <h2>@Model.Title</h2>
 
-<!-- Display event image -->
-<img src="@Url.Content($"~/images/event{Model.EventId}.jpg")" class="imagedetails">
+<div class="row ">
+    <div class="col-12">
+        <!-- Display event image -->
+        <img src="@Url.Content($"~/images/event{Model.EventId}.jpg")" class="imagedetails">
 
-<div>
-    <h4>Description:</h4>
-    <p>@Model.Description</p>
+        <div class="mt-2">
+            <h4>Description:</h4>
+            <p>@Model.Description</p>
+        </div>
+
+        <div class="mt-2">
+            <h4>Date & Time:</h4>
+            <p>@Model.EventDateTime.ToString("dddd, MMMM dd, yyyy HH:mm")</p>
+        </div>
+
+        <div class="mt-2">
+            <h4>Venue:</h4>
+            <p>@Model.Venue.Name</p>
+            <p>@Model.Venue.Address, @Model.Venue.City, @Model.Venue.Province</p>>
+        </div>
+
+        <div class="map-container">
+            <iframe width="400"
+                    height="300"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBm9Fy2OrkjF7mCdQcuSkKfJLOX6g3TWow&q=@HttpUtility.UrlEncode(Model.Venue.Address)">
+            </iframe>                 
+        </div>
+
+        <div class="mt-2">
+            <h4>Capacity:</h4>
+            <p>@Model.Venue.Capacity</p>
+        </div>
+        <div class="price-recap row mt-2">
+            <div class="col-lg-12">
+                <h4>Available Tickets</h4>
+            </div>
+
+            @foreach(var ticket in Model.Tickets)
+            {
+                <div class="col-lg-6">
+                    <div class="price-item">
+                   
+                       <h4>@ticket.Type</h4>
+                       <span>@ticket.Price $CAD</span>
+                      @*   <button class="btn btn-success cart-button text-black"><i class="fa-solid fa-cart-plus me-1"></i> Add to Cart</button> *@
+                        <button class="add-to-cart btn btn-success cart-button text-black" 
+                                data-ticket-id="@ticket.TicketId" 
+                                data-event-id="@Model.EventId"
+                                data-ticket-type="@ticket.Type"
+                                data-description="@Model.Description"
+                                data-event-date="@Model.EventDateTime"
+                                data-price="@ticket.Price">
+                            <i class="fa-solid fa-cart-plus me-1"></i>Add to Cart
+                        </button>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+  
 </div>
 
-<div>
-    <h4>Date & Time:</h4>
-    <p>@Model.EventDateTime.ToString("dddd, MMMM dd, yyyy HH:mm")</p>
-</div>
 
-<div>
-    <h4>Venue:</h4>
-    <p>@Model.Venue.Name</p>
-    <p>@Model.Venue.Address, @Model.Venue.City, @Model.Venue.Province</p>
-</div>
 
-<div>
-    <h4>Capacity:</h4>
-    <p>@Model.Venue.Capacity</p>
-</div>
+
+
+
+@* @foreach (var ticket in Model.Tickets)
+{
+    <form asp-action="AddToCart" asp-controller="Cart" asp-route="@routeValuesForAddToCart" method="post">
+        <div>
+            <span>@ticket.Type</span>
+            <span>@ticket.Price.ToString("C")</span>
+            <input type="number" name="quantity" value="1" min="0" max="@ticket.QuantityAvailable" />
+            <input type="hidden" name="ticketId" value="@ticket.TicketId" />
+            <button type="submit">Add to Cart</button>
+        </div>
+    </form>
+} *@
+
 
 @* Add more details as needed *@

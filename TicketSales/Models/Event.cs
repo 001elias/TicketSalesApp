@@ -17,7 +17,6 @@ namespace TicketSales.Models
         public virtual Venue Venue { get; set; } // Add Venue navigation property
         public virtual ICollection<Ticket> Tickets { get; set; }
         public virtual ICollection<Reservation> Reservations { get; set; }
-
         public Event()
         {
             Tickets = new HashSet<Ticket>();

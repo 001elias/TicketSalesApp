@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Documents/FSD CLASSES/APP DEV 2/TicketSalesApp/TicketSales/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Documents/FSD CLASSES/APP DEV 2/TicketSalesApp/TicketSales/Views/Events/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/FSD CLASSES/APP DEV 2/TicketSalesApp/TicketSales/Views/Events/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documents/FSD CLASSES/APP DEV 2/TicketSalesApp/TicketSales/Views/Home/Index.cshtml]

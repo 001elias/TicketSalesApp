@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<TicketSales.Models.Event>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h2>Search Results</h2>
+
+@if (!Model.Any())
+{
+    <p>No events found.</p>
+}
+else
+{
+    <div class="search-results row">
+    @foreach (var evt in Model)
+    {
+        <div class="col-lg-4 col-sm-6 border-bottom-1 mb-3">
+            <div class="item text-center">
+                <a asp-action="Details" asp-controller="Events" asp-route-eventId="@evt.EventId">
+                    <!-- Update the image source path to use the event ID -->
+                    <img src="@Url.Content($"~/images/event{evt.EventId}.jpg")">
+                    <h4 class="mt-2">@evt.Title<br><span>@evt.EventType</span></h4>
+                </a>
+                <ul>
+                    <p><i class="fa fa-calendar"></i> @evt.EventDateTime.ToString("MMM dd, yyyy")</p>
+                    <p><i class="fa fa-map-marker"></i> @evt.Venue.City, @evt.Venue.Province</p>
+                    <p><i class="fa fa-users"></i> @evt.Venue.Capacity</p>
+                </ul>
+            </div>
+        </div>
+    }
+    </div>
+}
+
