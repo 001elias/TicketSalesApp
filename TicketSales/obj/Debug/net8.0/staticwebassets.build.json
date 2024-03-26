@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FztxQRaigWKMi68NhOr7E/Ejr6EWnM5zxfgMGm9w+hE=",
+  "Hash": "vQ3ipbd6X+YvZb9SyhxsJe17aoPSKBnR5Ml+3G1QrCY=",
   "Source": "TicketSales",
   "BasePath": "_content/TicketSales",
   "Mode": "Default",
@@ -1155,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\logoticket.png",
+      "SourceId": "TicketSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\",
+      "BasePath": "_content/TicketSales",
+      "RelativePath": "images/logoticket.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logoticket.png"
     },
     {
       "Identity": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-01.jpg",

@@ -412,8 +412,9 @@ Header Style
 }
 
     .header-area .main-nav .logo img {
-        width: 193px;
-        height: 50px;
+        width: 172px;
+        height: 115px;
+        translate: 64px -30px
     }
 
 .background-header .main-nav .logo {
@@ -1770,4 +1771,20 @@ body {
     padding: 20px;
     border: 1px solid #444;
     border-radius: 23px;
+}
+
+.reservations img {
+    width:100px;
+    height:60px;
+}
+
+.ticket-type {
+    font-size: 14px !important;
+    color: #ec6090 !important;
+}
+
+.price-info {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 14px;
 }

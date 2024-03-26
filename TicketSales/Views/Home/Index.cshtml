@@ -1,5 +1,4 @@
-﻿@model IEnumerable<TicketSales.Models.Event>
-
+﻿@model List<Event>
 @{
     ViewData["Title"] = "Home";
 }
@@ -10,7 +9,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="header-text">
-                    <h6>Welcome To Tickify</h6>
+                    <h6>Welcome To TicketRush</h6>
                     <h4>Browse All <em>Events</em> Here</h4>
                     <!--  <div class="main-button">
                         <a href="@Url.Action("Browse", "Home")">Browse Now</a>
@@ -28,6 +27,26 @@
             <div class="col-lg-12">
                 <div class="heading-section">
                     <h4><em>All Our</em> Events</h4>
+                </div>
+                <div class="d-flex mb-3">
+                    <div class="me-3"><label class="text-white">Sort by </label></div>
+                    <div class ="me-3">
+                        <select id="sortOrder" class="form-select" onchange="sortEvents()">
+                            <option value="dateAsc" selected="@((ViewData["CurrentSort"] as string == "dateAsc") ? "selected" : null)">Date (Ascending)</option>
+                            <option value="dateDesc" selected="@((ViewData["CurrentSort"] as string == "dateDesc") ? "selected" : null)">Date (Descending)</option>
+                            <option value="eventType" selected="@((ViewData["CurrentSort"] as string == "eventType") ? "selected" : null)">Event Type</option>
+                            <option value="venueCity" selected="@((ViewData["CurrentSort"] as string == "venueCity") ? "selected" : null)">Venue City (A-Z)</option>
+                        </select>
+                    </div>
+                    <div class ="me-3"><label class="text-white">Event types </label></div>
+                    <div class="me-3">
+                        <select id="eventFilter" class="form-select" onchange="sortEvents()">
+                            <option value="" selected="@((ViewData["CurrentFilter"] as string == "") ? "selected" : null)">All</option>
+                            <option value="concert" selected="@((ViewData["CurrentFilter"] as string == "concert") ? "selected" : null)">Concert</option>
+                            <option value="theater" selected="@((ViewData["CurrentFilter"] as string == "theater") ? "selected" : null)">Theater</option>
+                            <option value="other" selected="@((ViewData["CurrentFilter"] as string == "other") ? "selected" : null)">Other</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="row">
                    

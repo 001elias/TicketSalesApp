@@ -3,11 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using TicketSales.Models;
 using TicketSales.Extensions;
+using System.Security.Claims;
 
 namespace TicketSales.Controllers
 {
     public class CartController : Controller
     {
+        private readonly TicketReservationContext db = new TicketReservationContext();
+
         public HttpContext GetHttpContext()
         {
             return HttpContext;
@@ -16,36 +19,27 @@ namespace TicketSales.Controllers
         public IActionResult Index()
         {
             var cart = HttpContext.Session.Get<List<CartItem>>("Cart") ?? new List<CartItem>();
+
+            // Retrieve the message from TempData
+            string message = TempData["Message"] as string;
+
+            // Pass the message to the view
+            ViewBag.Message = message;
             return View(cart);
         }
 
-        public IActionResult AddToCart(int ticketId, 
-                                       int eventId, 
-                                       DateTime eventDate,
-                                       string ticketType, 
-                                       string description, 
-                                       int quantity, 
-                                       decimal price)
+        public IActionResult AddToCart(CartItem cartItem)
         {
             var cart = HttpContext.Session.Get<List<CartItem>>("Cart") ?? new List<CartItem>();
-            var existingItem = cart.FirstOrDefault(item => item.TicketID == ticketId);
+            var existingItem = cart.FirstOrDefault(item => item.TicketID == cartItem.TicketID);
 
             if (existingItem != null)
             {
-                existingItem.Quantity += quantity;
+                existingItem.Quantity += cartItem.Quantity;
             }
             else
             {
-                cart.Add(new CartItem
-                {
-                   EventDescription = description,
-                   TicketID = ticketId,
-                   EventID = eventId,
-                   EventDate = eventDate,
-                   TicketType = ticketType,
-                   Quantity = quantity,                  
-                   Price = price
-                });
+                cart.Add(cartItem);
             }
 
             HttpContext.Session.Set("Cart", cart);
@@ -83,10 +77,26 @@ namespace TicketSales.Controllers
 
         public IActionResult Book()
         {
-            HttpContext.Session.Set("Cart", new List<CartItem>());
-            // TODO : add items to Reservation table
 
-            
+            List<CartItem> cart = HttpContext.Session.Get<List<CartItem>>("Cart") ?? new List<CartItem>();
+            int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value, out int loggedUserId);
+
+            foreach (CartItem item in cart)
+            {            
+                db.Reservations.Add(new Reservation
+                {
+                    EventId = item.EventID,
+                    TicketId = item.TicketID,
+                    Quantity = item.Quantity,
+                    TotalPrice = item.Quantity * item.Price,
+                    ReservationDate = DateTime.Now,
+                    UserId = loggedUserId
+                });
+            }
+            db.SaveChanges();
+            TempData["Message"] = "Reservations made successfully.";
+            // clean the session
+            HttpContext.Session.Set("Cart", new List<CartItem>());
             return RedirectToAction("Index");
         }
     }

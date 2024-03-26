@@ -237,6 +237,10 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\logoticket.png",
+      "PackagePath": "staticwebassets\\images\\logoticket.png"
+    },
+    {
       "Id": "D:\\Documents\\FSD CLASSES\\APP DEV 2\\TicketSalesApp\\TicketSales\\wwwroot\\images\\popular-01.jpg",
       "PackagePath": "staticwebassets\\images\\popular-01.jpg"
     },

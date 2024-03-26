@@ -35,5 +35,11 @@ namespace TicketSales.Controllers
 
             return View(searchResults);
         }
+
+        public async Task<ActionResult> Bookmarks()
+        {
+         
+            return View();
+        }        
     }
 }

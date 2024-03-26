@@ -18,32 +18,5 @@ public class TicketReservationContext : DbContext
     public DbSet<Ticket> Tickets { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
 
-    //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-    //{
-    //    // Disable cascade delete for Event-Tickets relationship
-    //    modelBuilder.Entity<Event>()
-    //        .HasMany(e => e.Tickets)
-    //        .WithRequired(t => t.Event)
-    //        .HasForeignKey(t => t.EventId)
-    //        .WillCascadeOnDelete(false);
-
-    //    // Assuming Reservation has foreign keys to both Event and Ticket
-    //    // Disable cascade delete for Ticket-Reservations relationship
-    //    modelBuilder.Entity<Ticket>()
-    //        .HasMany(t => t.Reservations)
-    //        .WithRequired(r => r.Ticket)
-    //        .HasForeignKey(r => r.TicketId)
-    //        .WillCascadeOnDelete(false);
-
-    //    // Disable cascade delete for Event-Reservations relationship
-    //    // This configuration depends on how your Reservation entity is set up
-    //    modelBuilder.Entity<Event>()
-    //        .HasMany(e => e.Reservations)
-    //        .WithRequired(r => r.Event) // Adjust according to your actual navigation property
-    //        .HasForeignKey(r => r.EventId)
-    //        .WillCascadeOnDelete(false);
-
-    //    // Repeat the process for other entities and their relationships
-    //}
 
 }

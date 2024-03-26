@@ -16,17 +16,51 @@ namespace TicketSales.Controllers
             _logger = logger;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder = "dateAsc", string eventFilter = "")
         {
+            ViewData["CurrentSort"] = sortOrder;
+            ViewData["CurrentFilter"] = eventFilter;
+
             // Using .Include() for eager loading of the Venue navigation property
-            var events = db.Events.Include("Venue") // Use string include for EF6
-                                  .OrderBy(e => e.EventDateTime)
-                                  .Take(30)
-                                  .ToList(); // Synchronous query, but you can use .ToListAsync() with EF6 if async is needed
-            return View(events);
+            var events = db.Events.Include("Venue")
+                                  .Where(evt => evt.EventDateTime >= DateTime.Today);
+                                 
+
+            switch (sortOrder)
+            {
+                case "dateAsc":
+                    events = events.OrderBy(e => e.EventDateTime);
+                    break;
+                case "dateDesc":
+                    events = events.OrderByDescending(e => e.EventDateTime);
+                    break;
+                case "eventType":
+                    events = events.OrderBy(e => e.EventType);
+                    break;
+                case "venueCity":
+                    events = events.OrderBy(e => e.Venue.City);
+                    break;
+                default:
+                    break;
+            }
+
+            switch(eventFilter)
+            {
+                case "concert":
+                    events = events.Where(e => e.EventType =="Concert");
+                    break;
+                case "other":
+                    events = events.Where(e => e.EventType == "Other");
+                    break;
+                case "theater":
+                    events = events.Where(e => e.EventType == "Theatre");
+                    break;
+            }
+            var list = events.Take(30).ToList();
+            return View(list);
         }
 
-
+     
         public IActionResult Privacy()
         {
             return View();

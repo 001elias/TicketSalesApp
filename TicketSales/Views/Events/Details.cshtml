@@ -57,13 +57,14 @@
                    
                        <h4>@ticket.Type</h4>
                        <span>@ticket.Price $CAD</span>
-                      @*   <button class="btn btn-success cart-button text-black"><i class="fa-solid fa-cart-plus me-1"></i> Add to Cart</button> *@
-                        <button class="add-to-cart btn btn-success cart-button text-black" 
+
+                        <button class="@(Model.EventDateTime.Date <= DateTime.Today ? "disabled" : "btn-success") add-to-cart btn cart-button text-black"
                                 data-ticket-id="@ticket.TicketId" 
                                 data-event-id="@Model.EventId"
                                 data-ticket-type="@ticket.Type"
                                 data-description="@Model.Description"
                                 data-event-date="@Model.EventDateTime"
+                                data-venue="@Model.Venue.Name"
                                 data-price="@ticket.Price">
                             <i class="fa-solid fa-cart-plus me-1"></i>Add to Cart
                         </button>
