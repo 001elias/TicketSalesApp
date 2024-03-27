@@ -16,7 +16,7 @@ namespace TicketSales.Services
 
         public static async void SendEmail(string senderEmail, string recipientEmail, string subject, string body)
         {
-            var apiKey = "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"; // "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";
+            var apiKey = ""; // "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";
             var client = new SendGridClient(apiKey);
 
             var from = new EmailAddress(senderEmail);
