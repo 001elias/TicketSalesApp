@@ -1,0 +1,43 @@
+﻿@using System.Security.Claims
+@model List<Event>
+@{    
+    int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value, out int loggedUserId);
+}
+
+<div class="row">
+
+    @foreach (var evt in Model)
+    {
+        <div class="col-lg-3 col-sm-6">
+            <div class="item">
+                <a asp-action="Details" asp-controller="Events" asp-route-eventId="@evt.EventId">
+                    <!-- Update the image source path to use the event ID -->
+                    <img src="@Url.Content($"~/images/event{evt.EventId}.jpg")">
+                    <h4>@evt.Title<br><span>@evt.EventType</span></h4>
+                </a>
+
+                <ul>
+                    <li><i class="fa fa-calendar"></i> @evt.EventDateTime.ToString("MMM dd, yyyy")</li>
+                    <li><i class="fa fa-map-marker"></i> @evt.Venue.City, @evt.Venue.Province</li>
+                    <li><i class="fa fa-users"></i> @evt.Venue.Capacity</li>
+                </ul>
+                <form asp-controller="Bookmarks" asp-action="Add" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="eventId" value="@evt.EventId" />
+                    {@if (evt.Bookmarks.Any(b => b.UserID == loggedUserId))
+                    {
+                        <button title="Remove bookmark" type="button" onclick="removeBookmark(@evt.EventId)" class="btn btn-outline-danger">
+                            <i class="fa fa-bookmark"></i>
+                        </button>
+                    }
+                    else
+                    {
+                        <button title="Bookmark" type="button" onclick="addBookmark(@evt.EventId)" class="btn btn-outline-info">
+                            <i class="fa fa-bookmark"></i>
+                        </button>
+                    }
+                </form>
+            </div>
+        </div>
+    }
+</div> 

@@ -17,6 +17,5 @@ public class TicketReservationContext : DbContext
     public DbSet<Event> Events { get; set; }
     public DbSet<Ticket> Tickets { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
-
-
+    public DbSet<Bookmark> Bookmarks { get; set; }
 }

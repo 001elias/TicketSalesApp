@@ -30,7 +30,7 @@ namespace TicketSales.Controllers
             }
 
             var searchResults = await db.Events
-                .Where(e => e.Title.ToLower().Contains(searchQuery.ToLower()))
+                .Where(e => e.Title.ToLower().Contains(searchQuery.ToLower()) || e.Venue.City.ToLower().Contains(searchQuery.ToLower()))
                 .ToListAsync();
 
             return View(searchResults);

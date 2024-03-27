@@ -87,7 +87,8 @@ namespace TicketSales.Controllers
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, existingUser.Name),
-                        new Claim(ClaimTypes.NameIdentifier, existingUser.UserId.ToString())
+                        new Claim(ClaimTypes.NameIdentifier, existingUser.UserId.ToString()),
+                        new Claim(ClaimTypes.Email, existingUser.Email),
                     };  
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

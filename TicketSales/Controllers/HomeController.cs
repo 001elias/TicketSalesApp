@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Security.Claims;
 using TicketSales.Models;
 
 namespace TicketSales.Controllers
@@ -16,7 +19,18 @@ namespace TicketSales.Controllers
             _logger = logger;
         }
 
-        public ActionResult Index(string sortOrder = "dateAsc", string eventFilter = "")
+        public ActionResult Index()
+        {
+            var events = db.Events.Include("Venue")
+                                  .Where(evt => evt.EventDateTime >= DateTime.Today)
+                                  .OrderBy(e => e.EventDateTime)
+                                  .Take(30)
+                                  .ToList();
+            return View(events);
+        }
+        
+
+        public ActionResult GetEvents(string sortOrder = "dateAsc", string eventFilter = "")
         {
             ViewData["CurrentSort"] = sortOrder;
             ViewData["CurrentFilter"] = eventFilter;
@@ -24,7 +38,6 @@ namespace TicketSales.Controllers
             // Using .Include() for eager loading of the Venue navigation property
             var events = db.Events.Include("Venue")
                                   .Where(evt => evt.EventDateTime >= DateTime.Today);
-                                 
 
             switch (sortOrder)
             {
@@ -44,10 +57,10 @@ namespace TicketSales.Controllers
                     break;
             }
 
-            switch(eventFilter)
+            switch (eventFilter)
             {
                 case "concert":
-                    events = events.Where(e => e.EventType =="Concert");
+                    events = events.Where(e => e.EventType == "Concert");
                     break;
                 case "other":
                     events = events.Where(e => e.EventType == "Other");
@@ -56,11 +69,10 @@ namespace TicketSales.Controllers
                     events = events.Where(e => e.EventType == "Theatre");
                     break;
             }
-            var list = events.Take(30).ToList();
-            return View(list);
+            var eventList = events.Take(30).ToList();           
+            return PartialView("_Events", eventList);
         }
 
-     
         public IActionResult Privacy()
         {
             return View();

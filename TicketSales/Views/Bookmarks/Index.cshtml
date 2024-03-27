@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Bookmark>
+
+@using (Html.BeginForm("Remove", "Bookmarks", FormMethod.Post))
+{
+    @foreach (var bookmark in Model)
+    {
+        <div class="bookmarks">
+            <a asp-action="Details" asp-controller="Events" asp-route-eventId="@bookmark.EventId">
+                <!-- Update the image source path to use the event ID -->
+                <img src="@Url.Content($"~/images/event{@bookmark.EventId}.jpg")">
+                <h4>@bookmark.Event.Title<br><span>@bookmark.Event.EventType</span></h4>
+            </a>
+            <div class="col-6">
+                <span class="text-white">Date : @bookmark.Event.EventDateTime</span>
+            </div>
+            <span class="text-info">@bookmark.Event.Venue.Name</span>
+            <input type="hidden" name="bookmarkId" value="@bookmark.BookmarkId" />
+            <button type="submit" class="btn btn-outline-danger">
+                <i class="fa fa-times"></i> Remove
+            </button>            
+        </div>
+    }
+}

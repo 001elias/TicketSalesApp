@@ -108,3 +108,5 @@ d:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\obj\Debug\net8.0\T
 d:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\obj\Debug\net8.0\TicketSales.genruntimeconfig.cache
 d:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\obj\Debug\net8.0\ref\TicketSales.dll
 D:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\bin\Debug\net8.0\SendGrid.dll
+D:\Documents\FSD CLASSES\APP DEV 2\TicketSalesApp\TicketSales\bin\Debug\net8.0\StarkbankEcdsa.dll

@@ -4,6 +4,7 @@ using System.Net.Http;
 using TicketSales.Models;
 using TicketSales.Extensions;
 using System.Security.Claims;
+using TicketSales.Services;
 
 namespace TicketSales.Controllers
 {
@@ -80,7 +81,7 @@ namespace TicketSales.Controllers
 
             List<CartItem> cart = HttpContext.Session.Get<List<CartItem>>("Cart") ?? new List<CartItem>();
             int.TryParse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value, out int loggedUserId);
-
+           
             foreach (CartItem item in cart)
             {            
                 db.Reservations.Add(new Reservation
@@ -94,10 +95,33 @@ namespace TicketSales.Controllers
                 });
             }
             db.SaveChanges();
-            TempData["Message"] = "Reservations made successfully.";
+            //
+            SendEmail(cart);
+
+             TempData["Message"] = "Reservations made successfully.";
             // clean the session
             HttpContext.Session.Set("Cart", new List<CartItem>());
             return RedirectToAction("Index");
+        }
+
+        private void SendEmail(List<CartItem> cart)
+        {
+            string ticketSummary = string.Empty;
+            foreach (var item in cart)
+            {
+                ticketSummary += $"{item.EventDescription} Date: {item.EventDate} " +
+                                 $"Venue: {item.Venue} Quantity: {item.Quantity} " +
+                                 $"Price: {item.Price} $\n\n";
+            }
+            string loggedUserMail = User.FindFirst(ClaimTypes.Email)?.Value;
+            string mailBody = $"Dear Customer, \n\n Thank you for booking your tickets with us!\n\n" +
+                             "We're excited to confirm your order and provide you with the following summary\n\n:" + ticketSummary +
+                             "Please review the details above and ensure everything is correct. If you have any questions or need further assistance," +
+                             "feel free to reach out to our customer support team. \n\nWe hope you have a fantastic experience!\n\n" +
+                             "Best regards, \n\nTicket Rush team";
+
+
+            EmailService.SendEmail("ticketrushinfo@gmail.com", loggedUserMail, "Your ticket reservations", mailBody);
         }
     }
 

@@ -1,4 +1,5 @@
-﻿function updateCartCount() {
+﻿toastr.options.positionClass = 'toast-bottom-right';
+function updateCartCount() {
     $.ajax({
         url: '/Cart/GetCartCount',
         type: 'GET',
@@ -8,10 +9,17 @@
     });
 }
 
-function sortEvents() {
+function refreshEvenList() {
     var selectedSortOrder = document.getElementById('sortOrder').value;
     var eventFilter = document.getElementById('eventFilter').value;
-    window.location.href = `/Home/Index?sortOrder=${selectedSortOrder}&eventFilter=${eventFilter}`;    
+    // refresh partial view only
+    $.get("/Home/GetEvents?eventFilter=" + eventFilter + "&sortOrder=" + selectedSortOrder, function (data) {
+        $("#eventListContainer").html(data);
+    });
+}
+
+function sortEvents() {   
+    refreshEvenList();   
 }
 
 $('.add-to-cart').click(function () {
@@ -48,3 +56,51 @@ $('.add-to-cart').click(function () {
 $(document).ready(function () {
     updateCartCount();
 })
+
+
+function addBookmark(eventId) {
+    $.ajax({
+         url: "/Bookmarks/Add",  // Make sure this resolves to the correct URL
+        headers: {
+            'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+        },
+        type: 'POST',
+        data: {
+            eventId: eventId
+        },
+        success: function (result) {
+            // Handle the successful bookmark addition, e.g., change the button appearance
+           
+            toastr.info('Event bookmarked!')     
+            //window.location.href = "/home/index";
+            refreshEvenList();
+        },
+        error: function (xhr, status, error) {
+            // Handle errors
+            alert("Error bookmarking event: " + error);
+        }
+    });
+}
+
+function removeBookmark(eventId) {
+    $.ajax({
+        url: "/Bookmarks/Remove",  // Make sure this resolves to the correct URL
+        headers: {
+            'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+        },
+        type: 'POST',
+        data: {
+            eventId: eventId
+        },
+        success: function (result) {
+            // Handle the successful bookmark removal,
+           
+            toastr.info('Bookmark removed!');
+            refreshEvenList();            
+        },
+        error: function (xhr, status, error) {
+            // Handle errors
+            alert("Error bookmarking event: " + error);
+        }
+    });
+}
